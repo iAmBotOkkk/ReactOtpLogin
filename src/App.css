@@ -1,0 +1,55 @@
+.Otp {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff7e6;
+  box-shadow: 0 0 15px rgba(255, 200, 0, 0.3);
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  font-family: sans-serif;
+}
+
+.Otp h1 {
+  color: #ff9900;
+  margin-bottom: 20px;
+}
+
+.btn input,
+.otp-field input {
+  padding: 10px;
+  width: 80%;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn button,
+.otp-field button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #ffa500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.btn button:hover,
+.otp-field button:hover {
+  background: #ff8c00;
+}
+
+.otp-field {
+  margin-top: 20px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
