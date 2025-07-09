@@ -1,12 +1,40 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# OTP Login (React)
 
-Currently, two official plugins are available:
+A simple and effective OTP-based login interface built using **React**. This project demonstrates fundamental React concepts like state management, conditional rendering, and basic event handling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+- Input field for entering a 10-digit phone number
+- OTP generation (simulated)
+- Conditional rendering of OTP input after submission
+- Basic form validation
+- Clean UI with responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What I Learned
+
+- Handling component state with `useState`
+- Managing conditional rendering based on user actions
+- Capturing and validating user input
+- Structuring functional components for clarity
+- Styling components for better user experience
+
+## 🛠️ Tech Stack
+
+- **React** (Functional Components & Hooks)
+- **HTML5**
+- **CSS3**
+
+## Reflection
+
+Working on this project helped reinforce my understanding of React's core principles. While I referred to documentation and used ChatGPT for guidance and styling tips, the hands-on implementation significantly improved my confidence in working with real-world UI flows.
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+```bash
+git clone https://github.com/your-username/otp-login-react.git
+cd otp-login-react
+npm install
+npm start
